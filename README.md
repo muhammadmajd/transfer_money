@@ -38,8 +38,15 @@ A powerful Money Transfer API built with Laravel that allows users to register, 
 ## Installation & Setup
 
 1. **Clone the Repository**
+ Create DB in mysql change name of DB in .env 
 
    ```bash
    git clone git@github.com:muhammadmajd/transfer_money.git
    cd transfer_money
+   composer install
+   npm install
+   npm run dev
+   php artisan migrate
+   php artisan serve
+
    
